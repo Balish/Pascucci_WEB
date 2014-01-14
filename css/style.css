@@ -94,8 +94,15 @@ input {
     /*width: 1000px;*/
     padding-left: 120px;
     margin: -15px auto;
-    border-right: 1px solid #ffffff;
-    border-left: 1px solid #ffffff;
+   /** border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;**/
+}
+.top_menu_2{
+    /*width: 1000px;*/
+    padding-left: 120px;
+    margin: -15px auto;
+    /** border-right: 1px solid #ffffff;
+ border-left: 1px solid #ffffff;**/
 }
 
 .top_menu ul li{
@@ -106,7 +113,18 @@ input {
     border-top: 1px solid #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
 }
+.top_menu_2 ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+    padding: 10px 10px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
 .top_menu ul li:hover{
+    background: rgba(30, 30, 30, 0.4);
+}
+.top_menu_2 ul li:hover{
     background: rgba(30, 30, 30, 0.4);
 }
 .top_menu ul li a{
@@ -121,10 +139,24 @@ input {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-
+.top_menu_2 ul li a{
+    color: #000000;
+    font-family: Calibri;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: 0.9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
 .top_menu ul li a:hover{
     opacity: 1;
 
+}
+.top_menu_2 ul li a:hover{
+    opacity: 1;
 }
 .page_title {
     position: relative;
@@ -277,9 +309,59 @@ input {
 .catalog_rat ul li:first-of-type{
     padding-left: 0px;
 }
-/*
+/* Blog -Akciya
 -----------------------------------------------------------------------------*/
 
+.blog{
+    display: block;
+    position: relative;
+    background: #FFF;
+    margin: 0 auto;
+    padding:0px 0px;
+    width: 940px;
+}
+.blog_box{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0px;
+
+}
+.post_date{
+    position: relative;
+    margin: 0px;
+    padding: 0px 5px;
+    float: left;
+    width: 15.99%;
+}
+.post_content{
+    position: relative;
+    margin: 0px;
+    padding: 0px 5px;
+    float: left;
+    width: 80.99%;
+}
+.post_content h4,p,.post_date h3{
+    display: block;
+    margin: 0px;
+}
+.post_content h4{
+    color: #000000;
+    font-size: 22px;
+}
+.post_date h3{
+    color: #bf681d;
+    font-size: 22px;
+    padding: 0 15px;
+}
+.post_date p{
+
+}
+
+/*
+-----------------------------------------------------------------------------*/
 
 
 /* Footer
@@ -294,6 +376,18 @@ input {
     font-family: Calibri;
     text-align: center;
     color: #ffffff;
+
+}
+#footer_2 {
+    position: relative;
+    width: 940px;
+    height: 120px;
+    border-top: 1px solid #000000;
+    margin: 20px auto;
+    font-size: 15px;
+    font-family: Calibri;
+    text-align: center;
+    color: #000000;
 
 }
 .c_footer{
